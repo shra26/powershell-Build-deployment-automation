@@ -1,0 +1,5 @@
+\bin\
+\ClearScript\
+\PostPreRules\
+\SSOCertificate\
+C:\Users\sgowda\Desktop\powershellScripts\deploy\testpublish\Web.config

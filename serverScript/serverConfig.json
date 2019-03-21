@@ -1,0 +1,33 @@
+{
+    "Local":{
+        "mvZipFrom":"C:\\Users\\user\\Desktop\\testPublish.zip",
+        "fileName": "\\testPublish",
+        "unZipTo": "C:\\Users\\user\\Desktop\\powershellScripts\\oct_5"
+    },
+    "Old":{
+        "fromAddr": "C:\\Users\\user\\Desktop\\powershellScripts\\deploy\\testpublish\\*",
+        "toAddr": "C:\\Users\\user\\Desktop\\powershellScripts\\oct_5\\Old",
+        "exclude": "C:\\Users\\user\\Desktop\\powershellScripts\\serverScript\\backupExclude.txt"        
+    },
+    "New":{
+        "fromAddr":"C:\\Users\\user\\Desktop\\powershellScripts\\oct_5\\testpublish\\*",
+        "toAddr":"C:\\Users\\user\\Desktop\\powershellScripts\\deploy\\testpublish",
+        "exclude":"C:\\Users\\user\\Desktop\\powershellScripts\\serverScript\\backupExclude.txt"
+    },
+    "updateDll":{
+        "fromAddr":"C:\\Users\\user\\Desktop\\powershellScripts\\oct_5\\testpublish\\bin",
+        "toAddr":"C:\\Users\\user\\Desktop\\powershellScripts\\deploy\\testpublish\\bin",
+        "exclude":"C:\\Users\\user\\Desktop\\powershellScripts\\serverScript\\binExclude.txt"
+    },
+    "dbUpdate":{
+        "scriptFile":[
+            "c:\\Users\\user\\Desktop\\powershellScripts\\serverScript\\UpdateScripts_Oct_2017.sql",
+            "c:\\Users\\user\\Desktop\\powershellScripts\\serverScript\\UpdateScripts_Sep_2017.sql"
+        ],
+        "username":"db username",
+        "password":"password",
+        "db":"database name",
+        "server":"database server",
+        "go":"1"        
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Local":{
+        "home": "local file root",
+        "zipFrom": "C:\\Users\\user\\Desktop\\testpublish",
+        "zipTo": "C:\\Users\\user\\Desktop\\testPublish.zip"
+          
+    },
+    "SVNCredentials": {
+      "svnUrl": "svn url here",
+      "LocalPath": "merge path of svn here"
+    },
+    "LoginFTP": {
+      "hostname": "ftp://100.00.00.00:00/TESTUPLOAD/",  
+      "username": "xyz",
+      "password": "00101",
+      "fileUp":"C:\\Users\\user\\Desktop\\testPublish.zip"
+    },
+    "ms":{
+        "msBuild":"C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\MSBuild.exe",
+        "intAddr":"Portal\\Portal.csproj",
+        "profile":"Test"
+    }
+}

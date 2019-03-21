@@ -1,0 +1,13 @@
+{
+    "dbUpdate":{
+        "scriptFile":[
+            "c:\\Users\\sgowda\\Desktop\\powershellScripts\\serverScript\\UpdateScripts_Oct_2017.sql",
+            "c:\\Users\\sgowda\\Desktop\\powershellScripts\\serverScript\\UpdateScripts_Sep_2017.sql"
+        ],
+        "username":"database username",
+        "password":"password",
+        "db":"database name",
+        "server":"database server address",
+        "go":"1"        
+    }
+}
